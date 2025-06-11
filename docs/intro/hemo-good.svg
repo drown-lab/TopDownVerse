@@ -1,0 +1,165 @@
+<svg id="fragmentMap" version="1.1" viewBox="0 0 867 150" xmlns="http://www.w3.org/2000/svg" _bl_400=""><!--!--><style>
+            #fragmentMap text {
+                font-family: sans-serif, Arial;
+            }
+
+            .resSvg {
+                text-anchor: middle;
+                font-weight: bold;
+                fill: var(--mud-palette-text-primary);
+            }
+
+            .fixedSvg {
+                fill: blue;
+            }
+
+            .cSvg {
+                fill: goldenrod;
+            }
+
+            .NtermSvg {
+                text-anchor: end;
+            }
+
+            .CtermSvg {
+                text-anchor: middle;
+            }
+
+            .resSvg, .NtermSvg, .CtermSvg {
+                font-size: 18px;
+            }
+
+            #fragmentMap rect {
+                fill: transparent;
+                opacity: 1.0;
+                stroke-width: 2;
+            }
+        </style>
+
+        <!--!--><text class="NtermSvg" x="30" y="30" opacity="0.3">N</text><rect x="12" y="12" rx="5" ry="5" width="22" height="23" class=""><title>N</title></rect><!--!--><text class="resSvg" x="52" y="30">M</text><rect x="41" y="12" rx="5" ry="5" width="22" height="23" class=""><title>M1</title></rect><!--!--><text class="resSvg" x="84" y="30">G</text><rect x="73" y="12" rx="5" ry="5" width="22" height="23" class=""><title>G2</title></rect><!--!--><text class="resSvg" x="116" y="30">N</text><rect x="105" y="12" rx="5" ry="5" width="22" height="23" class=""><title>N3</title></rect><!--!--><text class="resSvg" x="148" y="30">P</text><rect x="137" y="12" rx="5" ry="5" width="22" height="23" class=""><title>P4</title></rect><!--!--><text class="resSvg" x="180" y="30">K</text><rect x="169" y="12" rx="5" ry="5" width="22" height="23" class=""><title>K5</title></rect><!--!--><text class="resSvg" x="212" y="30">V</text><rect x="201" y="12" rx="5" ry="5" width="22" height="23" class=""><title>V6</title></rect><!--!--><text class="resSvg" x="244" y="30">K</text><rect x="233" y="12" rx="5" ry="5" width="22" height="23" class=""><title>K7</title></rect><!--!--><text class="resSvg" x="276" y="30">A</text><rect x="265" y="12" rx="5" ry="5" width="22" height="23" class=""><title>A8</title></rect><!--!--><text class="resSvg" x="308" y="30">H</text><rect x="297" y="12" rx="5" ry="5" width="22" height="23" class=""><title>H9</title></rect><!--!--><text class="resSvg" x="340" y="30">G</text><rect x="329" y="12" rx="5" ry="5" width="22" height="23" class=""><title>G10</title></rect><!--!--><text class="resSvg" x="372" y="30">K</text><rect x="361" y="12" rx="5" ry="5" width="22" height="23" class=""><title>K11</title></rect><!--!--><text class="resSvg" x="404" y="30">K</text><rect x="393" y="12" rx="5" ry="5" width="22" height="23" class=""><title>K12</title></rect><!--!--><text class="resSvg" x="436" y="30">V</text><rect x="425" y="12" rx="5" ry="5" width="22" height="23" class=""><title>V13</title></rect><!--!--><text class="resSvg" x="468" y="30">L</text><rect x="457" y="12" rx="5" ry="5" width="22" height="23" class=""><title>L14</title></rect><!--!--><text class="resSvg" x="500" y="30">G</text><rect x="489" y="12" rx="5" ry="5" width="22" height="23" class=""><title>G15</title></rect><!--!--><text class="resSvg" x="532" y="30">A</text><rect x="521" y="12" rx="5" ry="5" width="22" height="23" class=""><title>A16</title></rect><!--!--><text class="resSvg" x="564" y="30">F</text><rect x="553" y="12" rx="5" ry="5" width="22" height="23" class=""><title>F17</title></rect><!--!--><text class="resSvg" x="596" y="30">S</text><rect x="585" y="12" rx="5" ry="5" width="22" height="23" class=""><title>S18</title></rect><!--!--><text class="resSvg" x="628" y="30">D</text><rect x="617" y="12" rx="5" ry="5" width="22" height="23" class=""><title>D19</title></rect><!--!--><text class="resSvg" x="660" y="30">G</text><rect x="649" y="12" rx="5" ry="5" width="22" height="23" class=""><title>G20</title></rect><!--!--><text class="resSvg" x="692" y="30">L</text><rect x="681" y="12" rx="5" ry="5" width="22" height="23" class=""><title>L21</title></rect><!--!--><text class="resSvg" x="724" y="30">A</text><rect x="713" y="12" rx="5" ry="5" width="22" height="23" class=""><title>A22</title></rect><!--!--><text class="resSvg" x="756" y="30">H</text><rect x="745" y="12" rx="5" ry="5" width="22" height="23" class=""><title>H23</title></rect><!--!--><text class="resSvg" x="788" y="30">L</text><rect x="777" y="12" rx="5" ry="5" width="22" height="23" class=""><title>L24</title></rect><text x="860" y="30" font-size="16" fill="#aaa" text-anchor="end">25</text><!--!--><text class="resSvg" x="820" y="30">D</text><rect x="809" y="12" rx="5" ry="5" width="22" height="23" class=""><title>D25</title></rect><text x="30" y="60" font-size="16" fill="#aaa" text-anchor="end">26</text><!--!--><text class="resSvg" x="52" y="60">N</text><rect x="41" y="42" rx="5" ry="5" width="22" height="23" class=""><title>N26</title></rect><!--!--><text class="resSvg" x="84" y="60">L</text><rect x="73" y="42" rx="5" ry="5" width="22" height="23" class=""><title>L27</title></rect><!--!--><text class="resSvg" x="116" y="60">K</text><rect x="105" y="42" rx="5" ry="5" width="22" height="23" class=""><title>K28</title></rect><!--!--><text class="resSvg" x="148" y="60">G</text><rect x="137" y="42" rx="5" ry="5" width="22" height="23" class=""><title>G29</title></rect><!--!--><text class="resSvg" x="180" y="60">T</text><rect x="169" y="42" rx="5" ry="5" width="22" height="23" class=""><title>T30</title></rect><!--!--><text class="resSvg" x="212" y="60">F</text><rect x="201" y="42" rx="5" ry="5" width="22" height="23" class=""><title>F31</title></rect><!--!--><text class="resSvg" x="244" y="60">A</text><rect x="233" y="42" rx="5" ry="5" width="22" height="23" class=""><title>A32</title></rect><!--!--><text class="resSvg" x="276" y="60">T</text><rect x="265" y="42" rx="5" ry="5" width="22" height="23" class=""><title>T33</title></rect><!--!--><text class="resSvg" x="308" y="60">L</text><rect x="297" y="42" rx="5" ry="5" width="22" height="23" class=""><title>L34</title></rect><!--!--><text class="resSvg" x="340" y="60">S</text><rect x="329" y="42" rx="5" ry="5" width="22" height="23" class=""><title>S35</title></rect><!--!--><text class="resSvg" x="372" y="60">E</text><rect x="361" y="42" rx="5" ry="5" width="22" height="23" class=""><title>E36</title></rect><!--!--><text class="resSvg" x="404" y="60">L</text><rect x="393" y="42" rx="5" ry="5" width="22" height="23" class=""><title>L37</title></rect><!--!--><text class="resSvg" x="436" y="60">H</text><rect x="425" y="42" rx="5" ry="5" width="22" height="23" class=""><title>H38</title></rect><!--!--><text class="resSvg cSvg" x="468" y="60">C</text><rect x="457" y="42" rx="5" ry="5" width="22" height="23" class=""><title>C39</title></rect><!--!--><text class="resSvg" x="500" y="60">D</text><rect x="489" y="42" rx="5" ry="5" width="22" height="23" class=""><title>D40</title></rect><!--!--><text class="resSvg" x="532" y="60">K</text><rect x="521" y="42" rx="5" ry="5" width="22" height="23" class=""><title>K41</title></rect><!--!--><text class="resSvg" x="564" y="60">L</text><rect x="553" y="42" rx="5" ry="5" width="22" height="23" class=""><title>L42</title></rect><!--!--><text class="resSvg" x="596" y="60">H</text><rect x="585" y="42" rx="5" ry="5" width="22" height="23" class=""><title>H43</title></rect><!--!--><text class="resSvg" x="628" y="60">V</text><rect x="617" y="42" rx="5" ry="5" width="22" height="23" class=""><title>V44</title></rect><!--!--><text class="resSvg" x="660" y="60">D</text><rect x="649" y="42" rx="5" ry="5" width="22" height="23" class=""><title>D45</title></rect><!--!--><text class="resSvg" x="692" y="60">P</text><rect x="681" y="42" rx="5" ry="5" width="22" height="23" class=""><title>P46</title></rect><!--!--><text class="resSvg" x="724" y="60">E</text><rect x="713" y="42" rx="5" ry="5" width="22" height="23" class=""><title>E47</title></rect><!--!--><text class="resSvg" x="756" y="60">N</text><rect x="745" y="42" rx="5" ry="5" width="22" height="23" class=""><title>N48</title></rect><!--!--><text class="resSvg" x="788" y="60">F</text><rect x="777" y="42" rx="5" ry="5" width="22" height="23" class=""><title>F49</title></rect><text x="860" y="60" font-size="16" fill="#aaa" text-anchor="end">50</text><!--!--><text class="resSvg" x="820" y="60">R</text><rect x="809" y="42" rx="5" ry="5" width="22" height="23" class=""><title>R50</title></rect><text x="30" y="90" font-size="16" fill="#aaa" text-anchor="end">51</text><!--!--><text class="resSvg" x="52" y="90">L</text><rect x="41" y="72" rx="5" ry="5" width="22" height="23" class=""><title>L51</title></rect><!--!--><text class="resSvg" x="84" y="90">L</text><rect x="73" y="72" rx="5" ry="5" width="22" height="23" class=""><title>L52</title></rect><!--!--><text class="resSvg" x="116" y="90">G</text><rect x="105" y="72" rx="5" ry="5" width="22" height="23" class=""><title>G53</title></rect><!--!--><text class="resSvg" x="148" y="90">N</text><rect x="137" y="72" rx="5" ry="5" width="22" height="23" class=""><title>N54</title></rect><!--!--><text class="resSvg" x="180" y="90">V</text><rect x="169" y="72" rx="5" ry="5" width="22" height="23" class=""><title>V55</title></rect><!--!--><text class="resSvg" x="212" y="90">L</text><rect x="201" y="72" rx="5" ry="5" width="22" height="23" class=""><title>L56</title></rect><!--!--><text class="resSvg" x="244" y="90">V</text><rect x="233" y="72" rx="5" ry="5" width="22" height="23" class=""><title>V57</title></rect><!--!--><text class="resSvg cSvg" x="276" y="90">C</text><rect x="265" y="72" rx="5" ry="5" width="22" height="23" class=""><title>C58</title></rect><!--!--><text class="resSvg" x="308" y="90">V</text><rect x="297" y="72" rx="5" ry="5" width="22" height="23" class=""><title>V59</title></rect><!--!--><text class="resSvg" x="340" y="90">L</text><rect x="329" y="72" rx="5" ry="5" width="22" height="23" class=""><title>L60</title></rect><!--!--><text class="resSvg" x="372" y="90">A</text><rect x="361" y="72" rx="5" ry="5" width="22" height="23" class=""><title>A61</title></rect><!--!--><text class="resSvg" x="404" y="90">H</text><rect x="393" y="72" rx="5" ry="5" width="22" height="23" class=""><title>H62</title></rect><!--!--><text class="resSvg" x="436" y="90">H</text><rect x="425" y="72" rx="5" ry="5" width="22" height="23" class=""><title>H63</title></rect><!--!--><text class="resSvg" x="468" y="90">F</text><rect x="457" y="72" rx="5" ry="5" width="22" height="23" class=""><title>F64</title></rect><!--!--><text class="resSvg" x="500" y="90">G</text><rect x="489" y="72" rx="5" ry="5" width="22" height="23" class=""><title>G65</title></rect><!--!--><text class="resSvg" x="532" y="90">K</text><rect x="521" y="72" rx="5" ry="5" width="22" height="23" class=""><title>K66</title></rect><!--!--><text class="resSvg" x="564" y="90">E</text><rect x="553" y="72" rx="5" ry="5" width="22" height="23" class=""><title>E67</title></rect><!--!--><text class="resSvg" x="596" y="90">F</text><rect x="585" y="72" rx="5" ry="5" width="22" height="23" class=""><title>F68</title></rect><!--!--><text class="resSvg" x="628" y="90">T</text><rect x="617" y="72" rx="5" ry="5" width="22" height="23" class=""><title>T69</title></rect><!--!--><text class="resSvg" x="660" y="90">P</text><rect x="649" y="72" rx="5" ry="5" width="22" height="23" class=""><title>P70</title></rect><!--!--><text class="resSvg" x="692" y="90">P</text><rect x="681" y="72" rx="5" ry="5" width="22" height="23" class=""><title>P71</title></rect><!--!--><text class="resSvg" x="724" y="90">V</text><rect x="713" y="72" rx="5" ry="5" width="22" height="23" class=""><title>V72</title></rect><!--!--><text class="resSvg" x="756" y="90">Q</text><rect x="745" y="72" rx="5" ry="5" width="22" height="23" class=""><title>Q73</title></rect><!--!--><text class="resSvg" x="788" y="90">A</text><rect x="777" y="72" rx="5" ry="5" width="22" height="23" class=""><title>A74</title></rect><text x="860" y="90" font-size="16" fill="#aaa" text-anchor="end">75</text><!--!--><text class="resSvg" x="820" y="90">A</text><rect x="809" y="72" rx="5" ry="5" width="22" height="23" class=""><title>A75</title></rect><text x="30" y="120" font-size="16" fill="#aaa" text-anchor="end">76</text><!--!--><text class="resSvg" x="52" y="120">Y</text><rect x="41" y="102" rx="5" ry="5" width="22" height="23" class=""><title>Y76</title></rect><!--!--><text class="resSvg" x="84" y="120">Q</text><rect x="73" y="102" rx="5" ry="5" width="22" height="23" class=""><title>Q77</title></rect><!--!--><text class="resSvg" x="116" y="120">K</text><rect x="105" y="102" rx="5" ry="5" width="22" height="23" class=""><title>K78</title></rect><!--!--><text class="resSvg" x="148" y="120">V</text><rect x="137" y="102" rx="5" ry="5" width="22" height="23" class=""><title>V79</title></rect><!--!--><text class="resSvg" x="180" y="120">V</text><rect x="169" y="102" rx="5" ry="5" width="22" height="23" class=""><title>V80</title></rect><!--!--><text class="resSvg" x="212" y="120">A</text><rect x="201" y="102" rx="5" ry="5" width="22" height="23" class=""><title>A81</title></rect><!--!--><text class="resSvg" x="244" y="120">G</text><rect x="233" y="102" rx="5" ry="5" width="22" height="23" class=""><title>G82</title></rect><!--!--><text class="resSvg" x="276" y="120">V</text><rect x="265" y="102" rx="5" ry="5" width="22" height="23" class=""><title>V83</title></rect><!--!--><text class="resSvg" x="308" y="120">A</text><rect x="297" y="102" rx="5" ry="5" width="22" height="23" class=""><title>A84</title></rect><!--!--><text class="resSvg" x="340" y="120">N</text><rect x="329" y="102" rx="5" ry="5" width="22" height="23" class=""><title>N85</title></rect><!--!--><text class="resSvg" x="372" y="120">A</text><rect x="361" y="102" rx="5" ry="5" width="22" height="23" class=""><title>A86</title></rect><!--!--><text class="resSvg" x="404" y="120">L</text><rect x="393" y="102" rx="5" ry="5" width="22" height="23" class=""><title>L87</title></rect><!--!--><text class="resSvg" x="436" y="120">A</text><rect x="425" y="102" rx="5" ry="5" width="22" height="23" class=""><title>A88</title></rect><!--!--><text class="resSvg" x="468" y="120">H</text><rect x="457" y="102" rx="5" ry="5" width="22" height="23" class=""><title>H89</title></rect><!--!--><text class="resSvg" x="500" y="120">K</text><rect x="489" y="102" rx="5" ry="5" width="22" height="23" class=""><title>K90</title></rect><!--!--><text class="resSvg" x="532" y="120">Y</text><rect x="521" y="102" rx="5" ry="5" width="22" height="23" class=""><title>Y91</title></rect><!--!--><text class="resSvg" x="564" y="120">H</text><rect x="553" y="102" rx="5" ry="5" width="22" height="23" class=""><title>H92</title></rect><!--!--><text class="CtermSvg" x="596" y="120" opacity="0.3">C</text><rect x="585" y="102" rx="5" ry="5" width="22" height="23" class=""><title>C</title></rect><!--!--><!--!--><path stroke="blue" fill="blue" d="M319, 14 L325, 16 L325, 32 L323, 32 L323, 18 L319, 16 Z"><title>B9
+962.51 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M383, 14 L389, 16 L389, 32 L387, 32 L387, 18 L383, 16 Z"><title>B11
+1,147.63 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M415, 14 L421, 16 L421, 32 L419, 32 L419, 18 L415, 16 Z"><title>B12
+1,275.72 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M447, 14 L453, 16 L453, 32 L451, 32 L451, 18 L447, 16 Z"><title>B13
+1,374.79 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M479, 14 L485, 16 L485, 32 L483, 32 L483, 18 L479, 16 Z"><title>B14
+1,487.88 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M511, 14 L517, 16 L517, 32 L515, 32 L515, 18 L511, 16 Z"><title>B15
+1,544.90 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M575, 14 L581, 16 L581, 32 L579, 32 L579, 18 L575, 16 Z"><title>B17
+1,763.00 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M607, 14 L613, 16 L613, 32 L611, 32 L611, 18 L607, 16 Z"><title>B18
+1,850.03 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M639, 14 L645, 16 L645, 32 L643, 32 L643, 18 L639, 16 Z"><title>B19
+1,965.06 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M671, 14 L677, 16 L677, 32 L675, 32 L675, 18 L671, 16 Z"><title>B20
+2,022.08 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M703, 14 L709, 16 L709, 32 L707, 32 L707, 18 L703, 16 Z"><title>B21
+2,135.17 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M735, 14 L741, 16 L741, 32 L739, 32 L739, 18 L735, 16 Z"><title>B22
+2,206.20 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M767, 14 L773, 16 L773, 32 L771, 32 L771, 18 L767, 16 Z"><title>B23
+2,343.26 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M799, 14 L805, 16 L805, 32 L803, 32 L803, 18 L799, 16 Z"><title>B24
+2,456.35 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M31, 44 L37, 46 L37, 62 L35, 62 L35, 48 L31, 46 Z"><title>B25
+2,571.37 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M63, 44 L69, 46 L69, 62 L67, 62 L67, 48 L63, 46 Z"><title>B26
+2,685.42 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M95, 44 L101, 46 L101, 62 L99, 62 L99, 48 L95, 46 Z"><title>B27
+2,798.50 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M319, 44 L325, 46 L325, 62 L323, 62 L323, 48 L319, 46 Z"><title>B34
+3,516.90 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M351, 44 L357, 46 L357, 62 L355, 62 L355, 48 L351, 46 Z"><title>B35
+3,603.93 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M383, 44 L389, 46 L389, 62 L387, 62 L387, 48 L383, 46 Z"><title>B36
+3,732.98 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M415, 44 L421, 46 L421, 62 L419, 62 L419, 48 L415, 46 Z"><title>B37
+3,846.06 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M447, 44 L453, 46 L453, 62 L451, 62 L451, 48 L447, 46 Z"><title>B38
+3,983.12 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M671, 44 L677, 46 L677, 62 L675, 62 L675, 48 L671, 46 Z"><title>B45
+4,793.49 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M191, 74 L197, 76 L197, 92 L195, 92 L195, 78 L191, 76 Z"><title>B55
+5,933.10 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M575, 74 L581, 76 L581, 92 L579, 92 L579, 78 L575, 76 Z"><title>B67
+7,266.80 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M639, 74 L645, 76 L645, 92 L643, 92 L643, 78 L639, 76 Z"><title>B69
+7,514.91 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M735, 74 L741, 76 L741, 92 L739, 92 L739, 78 L735, 76 Z"><title>B72
+7,808.09 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M767, 74 L773, 76 L773, 92 L771, 92 L771, 78 L767, 76 Z"><title>B73
+7,936.14 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M31, 104 L37, 106 L37, 122 L35, 122 L35, 108 L31, 106 Z"><title>B75
+8,078.22 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M159, 104 L165, 106 L165, 122 L163, 122 L163, 108 L159, 106 Z"><title>B79
+8,596.50 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M287, 104 L293, 106 L293, 122 L291, 122 L291, 108 L287, 106 Z"><title>B83
+8,922.70 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M543, 104 L549, 106 L549, 122 L547, 122 L547, 108 L543, 106 Z"><title>B91
+9,791.15 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M483, 107 L483, 122 L489, 124 L489, 122 L485, 120 L485, 107 Z"><title>Y3
+446.23 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M451, 107 L451, 122 L457, 124 L457, 122 L453, 120 L453, 107 Z"><title>Y4
+583.29 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M419, 107 L419, 122 L425, 124 L425, 122 L421, 120 L421, 107 Z"><title>Y5
+654.32 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M291, 107 L291, 122 L297, 124 L297, 122 L293, 120 L293, 107 Z"><title>Y9
+1,023.53 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M259, 107 L259, 122 L265, 124 L265, 122 L261, 120 L261, 107 Z"><title>Y10
+1,122.59 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M227, 107 L227, 122 L233, 124 L233, 122 L229, 120 L229, 107 Z"><title>Y11
+1,179.61 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M195, 107 L195, 122 L201, 124 L201, 122 L197, 120 L197, 107 Z"><title>Y12
+1,250.65 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M163, 107 L163, 122 L169, 124 L169, 122 L165, 120 L165, 107 Z"><title>Y13
+1,349.72 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M131, 107 L131, 122 L137, 124 L137, 122 L133, 120 L133, 107 Z"><title>Y14
+1,448.79 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M99, 107 L99, 122 L105, 124 L105, 122 L101, 120 L101, 107 Z"><title>Y15
+1,576.88 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M35, 107 L35, 122 L41, 124 L41, 122 L37, 120 L37, 107 Z"><title>Y17
+1,868.01 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M803, 77 L803, 92 L809, 94 L809, 92 L805, 90 L805, 77 Z"><title>Y18
+1,939.04 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M771, 77 L771, 92 L777, 94 L777, 92 L773, 90 L773, 77 Z"><title>Y19
+2,010.08 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M707, 77 L707, 92 L713, 94 L713, 92 L709, 90 L709, 77 Z"><title>Y21
+2,237.21 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M675, 77 L675, 92 L681, 94 L681, 92 L677, 90 L677, 77 Z"><title>Y22
+2,334.26 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M643, 77 L643, 92 L649, 94 L649, 92 L645, 90 L645, 77 Z"><title>Y23
+2,431.31 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M611, 77 L611, 92 L617, 94 L617, 92 L613, 90 L613, 77 Z"><title>Y24
+2,532.36 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M387, 77 L387, 92 L393, 94 L393, 92 L389, 90 L389, 77 Z"><title>Y31
+3,414.77 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M323, 77 L323, 92 L329, 94 L329, 92 L325, 90 L325, 77 Z"><title>Y33
+3,598.89 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M259, 77 L259, 92 L265, 94 L265, 92 L261, 90 L261, 77 Z"><title>Y35
+3,800.97 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M227, 77 L227, 92 L233, 94 L233, 92 L229, 90 L229, 77 Z"><title>Y36
+3,900.04 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M195, 77 L195, 92 L201, 94 L201, 92 L197, 90 L197, 77 Z"><title>Y37
+4,013.13 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M675, 47 L675, 62 L681, 64 L681, 62 L677, 60 L677, 47 Z"><title>Y47
+5,152.73 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M643, 47 L643, 62 L649, 64 L649, 62 L645, 60 L645, 47 Z"><title>Y48
+5,267.76 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M451, 47 L451, 62 L457, 64 L457, 62 L453, 60 L453, 47 Z"><title>Y54
+5,963.10 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M387, 47 L387, 62 L393, 64 L393, 62 L389, 60 L389, 47 Z"><title>Y56
+6,213.25 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M771, 17 L771, 32 L777, 34 L777, 32 L773, 30 L773, 17 Z"><title>Y69
+7,602.96 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M739, 17 L739, 32 L745, 34 L745, 32 L741, 30 L741, 17 Z"><title>Y70
+7,740.02 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M579, 17 L579, 32 L585, 34 L585, 32 L581, 30 L581, 17 Z"><title>Y75
+8,183.22 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M131, 17 L131, 32 L137, 34 L137, 32 L133, 30 L133, 17 Z"><title>Y89
+9,644.12 Da
+1 Match(es)</title></path><!--!--><!--!--><path stroke="blue" fill="blue" d="M99, 17 L99, 32 L105, 34 L105, 32 L101, 30 L101, 17 Z"><title>Y90
+9,758.16 Da
+1 Match(es)</title></path></svg>

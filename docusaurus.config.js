@@ -41,6 +41,11 @@ const config = {
     locales: ['en'],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
   presets: [
     [
       'classic',
@@ -51,7 +56,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/bsdrown/TopDownVerse/tree/main/docs/',
+            'https://github.com/bdrown/TopDownVerse/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -62,7 +67,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/bsdrown/TopDownVerse/tree/main/blog/',
+            'https://github.com/bdrown/TopDownVerse/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
