@@ -27,7 +27,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'bdrown', // Usually your GitHub org/user name.
+  organizationName: 'drown-lab', // Usually your GitHub org/user name.
   projectName: 'topdownverse', // Usually your repo name.
 
   onBrokenLinks: 'warn',
@@ -56,7 +56,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/bdrown/TopDownVerse/tree/main/',
+            'https://github.com/drown-lab/TopDownVerse/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -67,7 +67,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/bdrown/TopDownVerse/tree/main/',
+            'https://github.com/drown-lab/TopDownVerse/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -100,7 +100,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/bdrown/topdownverse',
+            href: 'https://github.com/drown-lab/topdownverse',
             label: 'GitHub',
             position: 'right',
           },
@@ -136,7 +136,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/bdrown/topdownverse',
+                href: 'https://github.com/drown-lab/topdownverse',
               },
             ],
           },
