@@ -15,7 +15,7 @@ It's not quite clear why you would be doing this (see possible examples), but yo
 
 <PlotlyBrowserLoader
   chartUrl={useBaseUrl('/charts/ubiquitin-simple.json')}
-  style={{ width: '90%', height: '500px', padding: '10px' }}
+  style={{ width: '90%', height: '500px' }}
 />
 
 This spectrum shows an [isotopically resolved](/docs/basics/spectra) example of ubiquitin with no impurities. We can confirm this by [estimating the observed proteoform mass](/docs/Theory/manual-deconvolution) and comparing it to the [theoretical proteoform mass](/docs/Theory/mass-protein). Wait, you think a mass alone is flimsy evidence? You don't believe me? 😲 Fine, let's use [fragmentation](/docs/Theory/fragmentation) to break apart all the copies of ubiquitin in our sample and confirm the sequence we are seeing. A [fragment map](/docs/Theory/fragment-map) (below) shows where the different molecules broke apart and we were able to observe the pieces.
@@ -30,14 +30,14 @@ OK, let's up the ante: we still know the [gene](https://en.wikipedia.org/wiki/Ge
 
 <PlotlyBrowserLoader
   chartUrl={useBaseUrl('/charts/ubiquitin-two.json')}
-  style={{ width: '90%', height: '500px', padding: '10px' }}
+  style={{ width: '90%', height: '500px' }}
 />
 
 Wow, that's starting to look a bit muddled with all those peaks! Let's run a [deconvolution](/docs/deconvolution/introduction) algorithm on the spectrum to both decharge and deisotope those proteoforms.
 
 <PlotlyBrowserLoader
   chartUrl={useBaseUrl('/charts/ubiquitin-mass.json')}
-  style={{ width: '90%', height: '500px', padding: '10px' }}
+  style={{ width: '90%', height: '500px' }}
 />
 
 Much better. It is now clear that we have 2 proteoforms that are ~80 [Daltons](https://en.wikipedia.org/wiki/Dalton_(unit)) apart. Given prior knowledge about this gene and our sample, we have a pretty good idea that this is a phosphorylation. Wait, what? You don't believe me again? 😲 Fear not, fragmentation can again provide confidence in our assignment. With a mass spectrometer, it is possible to [isolate](/docs/basics/mass-spectrometer) a portion of a spectrum and only pass it through for fragmentation. After isolating the heavier proteoform, fragmenting, and running [deconvolution](/docs/deconvolution/introduction) on the fragmentation spectrum (aka MS<sup>2</sup>), we are able to see the modification clearly.
@@ -59,12 +59,12 @@ Time to move on to bigger (and possibly better) things! In this sample, we have 
 
 <PlotlyBrowserLoader
   chartUrl={useBaseUrl('/charts/hemoglobin-mz.json')}
-  style={{ width: '90%', height: '500px', padding: '10px' }}
+  style={{ width: '90%', height: '500px' }}
 />
 
 <PlotlyBrowserLoader
   chartUrl={useBaseUrl('/charts/hemoglobin-mass.json')}
-  style={{ width: '90%', height: '500px', padding: '10px' }}
+  style={{ width: '90%', height: '500px' }}
 />
 
 Clearly, the intact masses alone are not enough to determine which proteoforms are present. So, we must isolate and fragment each of these targets in turn and [generate fragment maps](/docs/identification/targeted/applications) using all of the known gene sequences. We are able to figure out 4 out of the 5 peaks because they match well to one of the three sequences, but the smallest peak (around 10 kDa) only matches on one end (aka [terminus](https://en.wikipedia.org/wiki/N-terminus)).
