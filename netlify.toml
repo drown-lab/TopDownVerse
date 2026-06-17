@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[build.environment]
+  # Docusaurus 3.9+ requires Node 20+
+  NODE_VERSION = "20"
