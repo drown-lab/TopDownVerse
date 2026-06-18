@@ -1,0 +1,33 @@
+---
+sidebar_position: 5
+sidebar_label: 1.5 Membrane & Large Proteins
+---
+
+# 1.5 Handling Membrane Proteins and Large (>50 kDa) Targets
+
+If sample prep is the hardest part of top-down generally, membrane proteins and large targets are the hardest part of sample prep specifically. Integral membrane proteins (IMPs) are insoluble in the aqueous buffers MS prefers, sticky with the detergents that solubilize them, and biologically meaningful only when the right lipids come along for the ride. Proteins above ~50 kDa suffer from declining fragmentation efficiency, dropping isotope resolution per given resolving power, and dynamic-range challenges in complex mixtures. These are active frontiers, and the good news is that real progress has been made on both.
+
+**Detergent-based approaches.** The traditional route for IMPs uses MS-compatible detergents (OG, LDAO, C8E4) that solubilize the protein for direct infusion and allow gas-phase release under careful activation. The Robinson group has been the leading practitioner of this approach for native MS of membrane protein complexes; their 2020 paper combining native MS with omics-based identification of endogenous ligands is a particularly elegant demonstration.[^gault2020]
+
+**Nanodiscs.** MSP-based nanodiscs (membrane scaffold protein) surround the membrane protein with a defined lipid bilayer of controllable composition, and their relative homogeneity makes them resolvable by native MS. Reid, Keener, and colleagues from the Marty group engineered MSP variants whose mass shifts allow unambiguous stoichiometry assignment from single spectra, a development that's made nanodisc native MS much more practical.[^reid2017]
+
+**SMALPs.** Styrene-maleic acid lipid particles are detergent-free: the SMA copolymer inserts directly into native membranes and excises the protein of interest with its native lipid annulus intact.[^knowles2009][^dorr2016] The trade-off is mass heterogeneity — SMALPs have a broad mass distribution that prevents resolution of the intact complex by conventional native MS. Techniques like LILBID (laser-induced liquid bead ion desorption) have started to address this; Hellwig and colleagues used SMALP-LILBID to determine oligomeric states for several membrane protein complexes directly from native nanodiscs.[^hellwig2018] The 2021 Keener review by Marty and colleagues in *Analytical Chemistry* is a solid entry point for the current state of native MS of membrane proteins more broadly.[^keener2021]
+
+**CZE for membrane proteins.** As noted in the previous topic, CZE with organic-solvent-containing buffers can handle IMPs directly from enriched membrane fractions (see [§1.4 — CZE and Alternative Separation Modes](./cze-alternative-modes.md), ref 7).
+
+**Large proteins.** Fragmentation efficiency drops steeply above ~50 kDa because denser charge distributions and larger conformational space work against efficient backbone cleavage. UVPD has pushed this ceiling somewhat — Cleland and colleagues demonstrated UVPD on intact human proteins on an Orbitrap.[^cleland2017] The 21 T FTICR instrument at the National High Magnetic Field Laboratory has also been a major driver of progress at high mass; Anderson and colleagues characterized human proteoforms above 50 kDa using LC-21 T FT-ICR with impressive sequence coverage.[^anderson2017] Serial SEC has extended the accessible mass range of online LC-MS to above 200 kDa (see [§1.2 — Prefractionation Strategies](./prefractionation.md), ref 6). For proteins above ~75 kDa, middle-down workflows (limited proteolysis with IdeS, OmpT, or other proteases that generate large polypeptide fragments) are often more productive than true top-down.
+
+An honest word of encouragement: none of this is easy, but the community that works on these problems is small, generous, and enthusiastic about helping new entrants. If membrane proteins or large targets are in your future, reach out to the groups publishing in this space — they'll likely be delighted to talk.
+
+:::note[Figure 1.5 — planned]
+A scatter plot of reported proteoform identifications vs. protein molecular weight from recent large-scale top-down studies, with the ~50 kDa and ~75 kDa thresholds annotated and the membrane-protein subset highlighted.
+:::
+
+[^gault2020]: Gault J, Liko I, Landreh M, et al. *Nat. Methods* **17**, 505–508 (2020). "Combining native and 'omics' mass spectrometry to identify endogenous ligands bound to membrane proteins." [DOI: 10.1038/s41592-020-0821-0](https://doi.org/10.1038/s41592-020-0821-0)
+[^reid2017]: Reid DJ, Keener JE, Wheeler AP, Zambrano DE, Diesing JM, Reinhardt-Szyba M, Makarov A, Marty MT. *Anal. Chem.* **89**, 11189–11192 (2017). "Engineering nanodisc scaffold proteins for native mass spectrometry." [DOI: 10.1021/acs.analchem.7b03569](https://doi.org/10.1021/acs.analchem.7b03569)
+[^knowles2009]: Knowles TJ, Finka R, Smith C, Lin YP, Dafforn T, Overduin M. *J. Am. Chem. Soc.* **131**, 7484–7485 (2009). "Membrane proteins solubilized intact in lipid containing nanoparticles bounded by styrene maleic acid copolymer." [DOI: 10.1021/ja810046q](https://doi.org/10.1021/ja810046q)
+[^dorr2016]: Dörr JM, Scheidelaar S, Koorengevel MC, Dominguez JJ, Schäfer M, van Walree CA, Killian JA. *Eur. Biophys. J.* **45**, 3–21 (2016). "The styrene-maleic acid copolymer: a versatile tool in membrane research." [DOI: 10.1007/s00249-015-1093-y](https://doi.org/10.1007/s00249-015-1093-y)
+[^hellwig2018]: Hellwig N, Peetz O, Ahdash Z, et al. *Chem. Commun.* **54**, 13702–13705 (2018). "Native mass spectrometry goes more native: investigation of membrane protein complexes directly from SMALPs." [DOI: 10.1039/c8cc06284f](https://doi.org/10.1039/c8cc06284f)
+[^keener2021]: Keener JE, Zhang G, Marty MT. *Anal. Chem.* **93**, 583–597 (2021). "Native mass spectrometry of membrane proteins." [DOI: 10.1021/acs.analchem.0c04342](https://doi.org/10.1021/acs.analchem.0c04342)
+[^cleland2017]: Cleland TP, DeHart CJ, Fellers RT, VanNispen AJ, Greer JB, LeDuc RD, Parker WR, Thomas PM, Kelleher NL, Brodbelt JS. *J. Proteome Res.* **16**, 2072–2079 (2017). "High-throughput analysis of intact human proteins using UVPD and HCD on an Orbitrap mass spectrometer." [DOI: 10.1021/acs.jproteome.7b00043](https://doi.org/10.1021/acs.jproteome.7b00043)
+[^anderson2017]: Anderson LC, DeHart CJ, Kaiser NK, Fellers RT, Smith DF, Greer JB, LeDuc RD, Blakney GT, Thomas PM, Kelleher NL, Hendrickson CL. *J. Proteome Res.* **16**, 1087–1096 (2017). "Identification and characterization of human proteoforms by top-down LC-21 Tesla FT-ICR mass spectrometry." [DOI: 10.1021/acs.jproteome.6b00696](https://doi.org/10.1021/acs.jproteome.6b00696)

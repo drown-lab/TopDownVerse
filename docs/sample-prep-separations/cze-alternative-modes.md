@@ -1,0 +1,32 @@
+---
+sidebar_position: 4
+sidebar_label: 1.4 CZE & Alternative Modes
+---
+
+# 1.4 CZE and Alternative Separation Modes
+
+Reversed-phase is the default, but it isn't always the best choice — particularly in the 30–80 kDa "middle mass range" where RPLC performance noticeably deteriorates. Here, alternative separations can be genuinely transformative, and **capillary zone electrophoresis (CZE)** is the one most likely to appear in your lab's future.
+
+CZE separates proteoforms based on their electrophoretic mobility (charge-to-size ratio in solution), which is fundamentally different from hydrophobicity-based RPLC — so the two are orthogonal. The theoretical peak capacity is extraordinary: Lubeckyj and colleagues demonstrated nearly one million theoretical plates for myoglobin separation using a long LPA-coated capillary,[^lubeckyj2019] and McCool and colleagues pushed CZE-MS/MS to identify 5,700 proteoforms from *E. coli* in 2018 — at the time the largest top-down dataset reported.[^mccool2018] The Sun group at Michigan State has been the most active force in pushing CZE-MS forward; the 2025 *Annual Review of Analytical Chemistry* piece by Wang and colleagues is the best current overview.[^wang2025]
+
+Three practical things to know. First, sensitivity: CZE-MS can reach attomole-level detection because the low electroosmotic flow is well-matched to ESI, making it uniquely suited to mass-limited samples (single cells, laser-capture microdissected tissue). Second, the interface matters a great deal — the electrokinetically-pumped sheath-flow interface developed by Wojcik, Dovichi, and colleagues[^wojcik2010] and the sheathless porous-tip interface developed by Haselberg and colleagues[^haselberg2010] are the two dominant designs. Third, capillary coatings (linear polyacrylamide is the most common) are essential for reproducibility; Sadeghi and colleagues recently characterized the long-term reproducibility of LPA-coated capillaries and identified protein adsorption to the inner wall as the dominant failure mode, with a simple ammonium hydroxide cleanup that restores performance.[^sadeghi2024]
+
+CZE has also opened doors that RPLC cannot: it works well for integral membrane proteins in appropriate sample buffers — Wang and colleagues identified 276 IMP proteoforms from mouse brain using SEC-CZE-MS/MS with a formic acid/methanol sample buffer.[^wang2023] It preserves noncovalent complexes under native conditions, and it pairs well with SEC or size-based prefractionation for multidimensional workflows.
+
+Beyond CZE, **HILIC** and **hydrophobic interaction chromatography (HIC)** are worth knowing about. Online HIC-MS using more-hydrophobic stationary phases and MS-compatible ammonium acetate buffers, developed by Chen and colleagues, provides orthogonal selectivity to RPLC for native-state protein separation and can resolve proteoforms differing by minor modifications.[^chen2016] For antibody and biotherapeutic characterization specifically, the 2021 Camperi review covers the broader multidimensional LC-MS landscape thoroughly.[^camperi2021]
+
+The honest picture: RPLC remains the safest first choice for a general top-down workflow, but if you're working on mid-mass proteoforms, mass-limited samples, or hard-to-chromatograph targets, a CZE collaboration or capability is one of the highest-leverage additions you can make.
+
+:::note[Figure 1.4 — planned]
+Side-by-side CZE-MS vs. LC-MS electropherogram/chromatogram pair of the same complex sample (e.g., *E. coli* lysate), with proteoform identifications overlaid to illustrate complementary coverage between the two modes.
+:::
+
+[^lubeckyj2019]: Lubeckyj RA, Basharat AR, Shen X, Liu X, Sun L. *J. Am. Soc. Mass Spectrom.* **30**, 1435–1445 (2019). "Large-scale qualitative and quantitative top-down proteomics using capillary zone electrophoresis-electrospray ionization-tandem mass spectrometry with nanograms of proteome samples." [DOI: 10.1007/s13361-019-02167-w](https://doi.org/10.1007/s13361-019-02167-w)
+[^mccool2018]: McCool EN, Lubeckyj RA, Shen X, Chen D, Kou Q, Liu X, Sun L. *Anal. Chem.* **90**, 5529–5533 (2018). "Deep top-down proteomics using capillary zone electrophoresis-tandem mass spectrometry: identification of 5700 proteoforms from the *Escherichia coli* proteome." [DOI: 10.1021/acs.analchem.8b00693](https://doi.org/10.1021/acs.analchem.8b00693)
+[^wang2025]: Wang Q, Wang Q, Zhu G, Sun L. *Annu. Rev. Anal. Chem.* **18**, 125–147 (2025). "Capillary electrophoresis–mass spectrometry for top-down proteomics." [DOI: 10.1146/annurev-anchem-071124-092242](https://doi.org/10.1146/annurev-anchem-071124-092242)
+[^wojcik2010]: Wojcik R, Dada OO, Sadilek M, Dovichi NJ. *Rapid Commun. Mass Spectrom.* **24**, 2554–2560 (2010). "Simplified capillary electrophoresis nanospray sheath-flow interface for high efficiency and sensitive peptide analysis." [DOI: 10.1002/rcm.4672](https://doi.org/10.1002/rcm.4672)
+[^haselberg2010]: Haselberg R, Ratnayake CK, de Jong GJ, Somsen GW. *J. Chromatogr. A* **1217**, 7605–7611 (2010). "Performance of a sheathless porous tip sprayer for capillary electrophoresis-electrospray ionization-mass spectrometry of intact proteins." [DOI: 10.1016/j.chroma.2010.10.006](https://doi.org/10.1016/j.chroma.2010.10.006)
+[^sadeghi2024]: Sadeghi SA, Chen W, Wang Q, Wang Q, Fang F, Liu X, Sun L. *J. Proteome Res.* **23**, 1399–1407 (2024). "Pilot evaluation of the long-term reproducibility of capillary zone electrophoresis-tandem mass spectrometry for top-down proteomics of a complex proteome sample." [DOI: 10.1021/acs.jproteome.3c00872](https://doi.org/10.1021/acs.jproteome.3c00872)
+[^wang2023]: Wang Q, Xu T, Fang F, Wang Q, Lundquist P, Sun L. *Anal. Chem.* **95**, 12590–12594 (2023). "Capillary zone electrophoresis-tandem mass spectrometry for top-down proteomics of mouse brain integral membrane proteins." [DOI: 10.1021/acs.analchem.3c02346](https://doi.org/10.1021/acs.analchem.3c02346)
+[^chen2016]: Chen B, Peng Y, Valeja SG, Xiu L, Alpert AJ, Ge Y. *Anal. Chem.* **88**, 1885–1891 (2016). "Online hydrophobic interaction chromatography-mass spectrometry for top-down proteomics." [DOI: 10.1021/acs.analchem.5b04285](https://doi.org/10.1021/acs.analchem.5b04285)
+[^camperi2021]: Camperi J, Goyon A, Guillarme D, Zhang K, Stella C. *Analyst* **146**, 747–769 (2021). "Multi-dimensional LC-MS: the next generation characterization of antibody-based therapeutics by unified online bottom-up, middle-up and intact approaches." [DOI: 10.1039/d0an01963a](https://doi.org/10.1039/d0an01963a)
