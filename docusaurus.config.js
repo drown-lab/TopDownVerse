@@ -45,6 +45,11 @@ const config = {
     hooks: {
       onBrokenMarkdownLinks: 'warn',
     },
+    // Rename the auto-generated footnotes section (used for citations) from
+    // the default "Footnotes" to "Key references". Passed through to remark-rehype.
+    remarkRehypeOptions: {
+      footnoteLabel: 'Key references',
+    },
   },
   themes: ['@docusaurus/theme-mermaid'],
 
